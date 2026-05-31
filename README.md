@@ -1,5 +1,23 @@
 `Nowa odsłona firmware'u dla sterwoników nawadniania w wersjach 4.2 i 5.x`
 
+## `v26.05.28`
+
+```
+Zmiana układu/ilości kanałów kasuje wartość licznika impulsów
+```
+
+- **core**
+
+  dodane wsparcie dla aktualizacji inicjowanej z Cloud - sterownik łączy się z moim serwerem pod adresem https://lukfud.supla.io przekazując adres IP, MAC adres karty sieciowej i wersję HW
+
+  dodana funkcja pauzy cyklu / wznowienia cyklu (po włączeniu w cfg pojawi się dodatkowy wirtualny przekaźnik)
+  
+  dodany WDT (watchdog) z powiadomieniem o przyczynie restartu sterownika
+  
+  drobne poparwki
+  
+- **aktualizacja bibliotek**
+
 ## `v25.08.26`
 
 - **core**
